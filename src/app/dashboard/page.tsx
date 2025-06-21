@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { getSession } from "../utils/auth";
 import { supabase } from "../lib/supabase";
 
-// --- Komponen Ikon tidak berubah ---
 const IconPlus = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

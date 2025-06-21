@@ -41,7 +41,6 @@ const IconLock = () => (
 );
 
 const IconAlert = () => (
-  // Sedikit penyesuaian warna agar lebih pas di tema gelap
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="h-5 w-5 text-red-400 mr-3"
@@ -63,7 +62,6 @@ export default function SignInPage() {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
-  // Logika handleLogin tidak berubah
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
